@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Styles for the QR component */
+
+.qr-container {
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 450px;
+  width: 300px;
+  padding: 15px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.qr-img {
+  height: 270px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.qr-text-bold {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.qr-text-thin {
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+/* Footer and attribution Styling */
+footer {
+  margin-top: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
